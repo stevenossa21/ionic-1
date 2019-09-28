@@ -1,0 +1,7 @@
+{
+  "name": "ap",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

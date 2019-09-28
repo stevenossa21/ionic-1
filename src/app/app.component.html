@@ -1,0 +1,15 @@
+<ion-app>
+  <ion-router-outlet></ion-router-outlet>
+<nav>
+  <ion-list inset>
+    <div *ngFor='let user of users' style='text-align: center' class='container-fluid'>
+    <h1>{{user.trabajo.tipo}}</h1>
+    <h2>{{user.campus}}</h2>
+    <p>{{user.espacio}}</p>
+    </div>
+  </ion-list>
+</nav>
+
+  <div>hola mundo</div>
+ 
+</ion-app>
